@@ -47,6 +47,7 @@ function Return() {
 }
 console.log(new Return().name);
 
+// calc
 function Calc() {
     this.value = function() {
         this.a = +prompt("Enter a number", "");
